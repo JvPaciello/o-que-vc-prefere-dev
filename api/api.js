@@ -61,8 +61,11 @@ app.post('/createOpcao', (req, res) => {
 })
 
 app.post('/vote', (req, res) => {
-  const { id_option, id_pool} = req.body
+  const { id_option} = req.body
 
+  const pool = db.prepare(`SELECT * FROM Enquetes WHERE expirada <> 1 LIMIT 1`).all();
+  const id_pool = pool[0].id
+  console.log(id_pool)
   const dbPrepare = db.prepare('INSERT INTO Votos (id_enquete, id_opcao) VALUES (?, ?)');
   const info = dbPrepare.run(id_pool, id_option);
 
@@ -77,7 +80,7 @@ app.post('/vote', (req, res) => {
     }, {})
   })
 
-  res.json({ id: info.lastInsertRowid, id_pool, id_option, options, countVotes : votes.length})
+  res.json({ id_pool, id_option, options, countVotes : votes.length})
 })
 
 app.get('/pools', (req, res) => {
