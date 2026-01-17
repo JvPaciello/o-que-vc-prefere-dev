@@ -16,10 +16,10 @@ async function getPool() {
     var secondOptionReference = document.getElementById("secondOptionReference");
 
     firstOptionReference.dataset.id = result.options[0].id;
-    firstOptionReference.innerHTML = "<h3 class='ui center aligned header'>" + result.options[0].name + "</h3><span id='firstOptionPercentageReference'></span>";
+    firstOptionReference.innerHTML = "<h3 class='ui center aligned header'>" + result.options[0].name + "</h3><h4 class='ui center aligned header' id='firstOptionPercentageReference'></h4>";
 
     secondOptionReference.dataset.id = result.options[1].id;
-    secondOptionReference.innerHTML = "<h3 class='ui center aligned header'>" + result.options[1].name + "</h3><span id='secondOptionPercentageReference'></span>";
+    secondOptionReference.innerHTML = "<h3 class='ui center aligned header'>" + result.options[1].name + "</h3><h4 class='ui center aligned header' id='secondOptionPercentageReference'></h4>";
 
     countdownTimeStart(new Date(result.expired_date));
   } catch (error) {
