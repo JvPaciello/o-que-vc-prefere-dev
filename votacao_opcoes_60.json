@@ -1,0 +1,304 @@
+{
+  "votacao": [
+    {
+      "id": 1,
+      "opcao_a": "Daily de 2 horas",
+      "opcao_b": "Daily às 5h da manhã"
+    },
+    {
+      "id": 2,
+      "opcao_a": "Mouse com fio",
+      "opcao_b": "Mouse sem scroll"
+    },
+    {
+      "id": 3,
+      "opcao_a": "Só pode responder PR com LGTM",
+      "opcao_b": "Request changes em toda PR"
+    },
+    {
+      "id": 4,
+      "opcao_a": "Trabalhar com sênior de 2 anos",
+      "opcao_b": "Trabalhar com júnior que se acha sênior"
+    },
+    {
+      "id": 5,
+      "opcao_a": "Pode entrar numa call?",
+      "opcao_b": "Áudio de 3 minutos no Slack"
+    },
+    {
+      "id": 6,
+      "opcao_a": "Configurar bluetooth no Linux",
+      "opcao_b": "Configurar impressora no Windows"
+    },
+    {
+      "id": 7,
+      "opcao_a": "Java no front-end",
+      "opcao_b": "JavaScript no back-end sem TypeScript"
+    },
+    {
+      "id": 8,
+      "opcao_a": "Café acabou",
+      "opcao_b": "Internet caiu"
+    },
+    {
+      "id": 9,
+      "opcao_a": "Deploy na sexta às 18h",
+      "opcao_b": "Hotfix no domingo"
+    },
+    {
+      "id": 10,
+      "opcao_a": "Pizza fria na madrugada",
+      "opcao_b": "Marmita esquecida na mochila"
+    },
+    {
+      "id": 11,
+      "opcao_a": "War room às 18h",
+      "opcao_b": "Reunião de alinhamento às 8h"
+    },
+    {
+      "id": 12,
+      "opcao_a": "Tabs",
+      "opcao_b": "Spaces"
+    },
+    {
+      "id": 13,
+      "opcao_a": "Dark mode",
+      "opcao_b": "Light mode"
+    },
+    {
+      "id": 14,
+      "opcao_a": "Debugar sem console.log",
+      "opcao_b": "Debugar só com alert()"
+    },
+    {
+      "id": 15,
+      "opcao_a": "Herdar código sem documentação",
+      "opcao_b": "Herdar código com documentação mentirosa"
+    },
+    {
+      "id": 16,
+      "opcao_a": "Variável chamada 'data'",
+      "opcao_b": "Variável chamada 'x2final_v3'"
+    },
+    {
+      "id": 17,
+      "opcao_a": "500 linhas num arquivo só",
+      "opcao_b": "500 arquivos de 1 linha cada"
+    },
+    {
+      "id": 18,
+      "opcao_a": "Bug que só acontece em produção",
+      "opcao_b": "Bug que some quando você mostra pro colega"
+    },
+    {
+      "id": 19,
+      "opcao_a": "any no TypeScript",
+      "opcao_b": "@ts-ignore em todo arquivo"
+    },
+    {
+      "id": 20,
+      "opcao_a": "Regex que você não entende",
+      "opcao_b": "30 if/else aninhados"
+    },
+    {
+      "id": 21,
+      "opcao_a": "Merge conflict de 200 linhas",
+      "opcao_b": "Rebase interativo de 47 commits"
+    },
+    {
+      "id": 22,
+      "opcao_a": "Vim sem saber sair",
+      "opcao_b": "VS Code sem nenhuma extensão"
+    },
+    {
+      "id": 23,
+      "opcao_a": "Reunião que podia ser email",
+      "opcao_b": "Email que vira thread de 50 mensagens"
+    },
+    {
+      "id": 24,
+      "opcao_a": "Pair programming o dia todo",
+      "opcao_b": "Code review linha por linha"
+    },
+    {
+      "id": 25,
+      "opcao_a": "Slack com 200 canais",
+      "opcao_b": "Slack com 1 canal pra tudo"
+    },
+    {
+      "id": 26,
+      "opcao_a": "Jira com 50 campos obrigatórios",
+      "opcao_b": "Trello caótico sem organização"
+    },
+    {
+      "id": 27,
+      "opcao_a": "Feedback sanduíche",
+      "opcao_b": "Feedback direto às 17h59 de sexta"
+    },
+    {
+      "id": 28,
+      "opcao_a": "Monitor 4K de 15 polegadas",
+      "opcao_b": "Monitor Full HD de 40 polegadas"
+    },
+    {
+      "id": 29,
+      "opcao_a": "32GB RAM com HD",
+      "opcao_b": "8GB RAM com SSD"
+    },
+    {
+      "id": 30,
+      "opcao_a": "Teclado mecânico barulhento",
+      "opcao_b": "Teclado de membrana macio"
+    },
+    {
+      "id": 31,
+      "opcao_a": "Dois monitores diferentes",
+      "opcao_b": "Um monitor ultrawide"
+    },
+    {
+      "id": 32,
+      "opcao_a": "Windows pra codar",
+      "opcao_b": "Linux sem driver de vídeo"
+    },
+    {
+      "id": 33,
+      "opcao_a": "Docker com 15 containers",
+      "opcao_b": "Roda na minha máquina"
+    },
+    {
+      "id": 34,
+      "opcao_a": "Monolito de 10 anos",
+      "opcao_b": "47 microsserviços"
+    },
+    {
+      "id": 35,
+      "opcao_a": "REST com 200 endpoints",
+      "opcao_b": "GraphQL com schema gigante"
+    },
+    {
+      "id": 36,
+      "opcao_a": "Produção caiu no seu aniversário",
+      "opcao_b": "Produção caiu na sua lua de mel"
+    },
+    {
+      "id": 37,
+      "opcao_a": "Notificação do Slack às 3h",
+      "opcao_b": "Ligação do chefe às 3h"
+    },
+    {
+      "id": 38,
+      "opcao_a": "Cliente que sabe programar",
+      "opcao_b": "Cliente que acha que sabe programar"
+    },
+    {
+      "id": 39,
+      "opcao_a": "Prazo pra ontem",
+      "opcao_b": "Sem pressa, mas é urgente"
+    },
+    {
+      "id": 40,
+      "opcao_a": "Estágio não remunerado",
+      "opcao_b": "CLT com banco de horas infinito"
+    },
+    {
+      "id": 41,
+      "opcao_a": "Codar de terno e gravata",
+      "opcao_b": "Codar de pijama em call com cliente"
+    },
+    {
+      "id": 42,
+      "opcao_a": "Chefe que manda 'oi, tudo bem?' e some",
+      "opcao_b": "Chefe que manda textão sem contexto"
+    },
+    {
+      "id": 43,
+      "opcao_a": "Sistema que só roda no Internet Explorer",
+      "opcao_b": "Sistema que só roda no Safari"
+    },
+    {
+      "id": 44,
+      "opcao_a": "Elogio em público, bronca em público",
+      "opcao_b": "Feedback só na avaliação anual"
+    },
+    {
+      "id": 45,
+      "opcao_a": "Dev que fala 'isso é fácil, 5 minutos'",
+      "opcao_b": "Dev que fala 'isso é impossível'"
+    },
+    {
+      "id": 46,
+      "opcao_a": "Commit sem mensagem",
+      "opcao_b": "Commit com mensagem 'fix'"
+    },
+    {
+      "id": 47,
+      "opcao_a": "Trabalhar com música alta no fone",
+      "opcao_b": "Trabalhar em open office barulhento"
+    },
+    {
+      "id": 48,
+      "opcao_a": "Ar condicionado no 16 graus",
+      "opcao_b": "Escritório sem ar condicionado"
+    },
+    {
+      "id": 49,
+      "opcao_a": "Só programar em inglês",
+      "opcao_b": "Variáveis em português com acento"
+    },
+    {
+      "id": 50,
+      "opcao_a": "Notebook da empresa travando",
+      "opcao_b": "Usar seu notebook pessoal pro trabalho"
+    },
+    {
+      "id": 51,
+      "opcao_a": "Fazer deploy manual via FTP",
+      "opcao_b": "Pipeline de CI/CD com 47 etapas"
+    },
+    {
+      "id": 52,
+      "opcao_a": "Testar em produção",
+      "opcao_b": "Ambiente de homologação sempre quebrado"
+    },
+    {
+      "id": 53,
+      "opcao_a": "Scrum master que leva scrum a sério",
+      "opcao_b": "Empresa sem processo nenhum"
+    },
+    {
+      "id": 54,
+      "opcao_a": "Trabalhar 100% remoto sem nunca ver o time",
+      "opcao_b": "Trabalhar 100% presencial com trânsito de 2h"
+    },
+    {
+      "id": 55,
+      "opcao_a": "Só usar StackOverflow",
+      "opcao_b": "Só usar ChatGPT"
+    },
+    {
+      "id": 56,
+      "opcao_a": "Código legado em COBOL",
+      "opcao_b": "Código legado em PHP 4"
+    },
+    {
+      "id": 57,
+      "opcao_a": "Reunião com câmera ligada obrigatória",
+      "opcao_b": "Reunião com todo mundo mutado"
+    },
+    {
+      "id": 58,
+      "opcao_a": "Salário bom com tecnologia antiga",
+      "opcao_b": "Salário ruim com tecnologia moderna"
+    },
+    {
+      "id": 59,
+      "opcao_a": "Nunca mais usar mouse",
+      "opcao_b": "Nunca mais usar atalhos de teclado"
+    },
+    {
+      "id": 60,
+      "opcao_a": "Exception genérica em todo catch",
+      "opcao_b": "Try/catch em cada linha do código"
+    }
+  ]
+}
