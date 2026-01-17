@@ -16,10 +16,10 @@ async function getPool() {
     var secondOptionReference = document.getElementById("secondOptionReference");
 
     firstOptionReference.dataset.id = result.options[0].id;
-    firstOptionReference.innerHTML = "<h3 class='ui center aligned header'>" + result.options[0].name + "</h3>";
+    firstOptionReference.innerHTML = "<h3 class='ui center aligned header'>" + result.options[0].name + "</h3><span id='firstOptionPercentageReference'></span>";
 
     secondOptionReference.dataset.id = result.options[1].id;
-    secondOptionReference.innerHTML = "<h3 class='ui center aligned header'>" + result.options[1].name + "</h3>";
+    secondOptionReference.innerHTML = "<h3 class='ui center aligned header'>" + result.options[1].name + "</h3><span id='secondOptionPercentageReference'></span>";
 
     countdownTimeStart(new Date(result.expired_date));
   } catch (error) {
@@ -53,15 +53,21 @@ async function vote(element) {
     var countVotes = result.countVotes;
 
     var firstOptionPercentage = (result.options[0][1] / countVotes) * 100;
-    var secondOptionPercetage = (result.options[0][0] / countVotes) * 100;
+    var secondOptionPercetage = (result.options[0][2] / countVotes) * 100;
 
     firstOptionReference.style.width = firstOptionPercentage + "%";
     secondOptionReference.style.width = secondOptionPercetage + "%";
 
-    votedReference.innerHTML = "Obrigado por votar, você e mais " + result.countVotes + " pessoas votaram.";
-  } catch (error) {
-    console.error(error.message);
-  }
+    var firstOptionPercentageReference = document.getElementById("firstOptionPercentageReference");
+        firstOptionPercentageReference.innerHTML = "("+firstOptionPercentage+"%)";
+
+        var secondOptionPercentageReference = document.getElementById("secondOptionPercentageReference");
+        secondOptionPercentageReference.innerHTML = "("+secondOptionPercetage+"%)";
+
+        votedReference.innerHTML = "Obrigado por votar, você e mais " + result.countVotes + " pessoas votaram.";
+    } catch (error) {
+        console.error(error.message);
+    }
 }
 
 function countdownTimeStart(countDownDate) {
