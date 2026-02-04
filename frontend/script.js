@@ -64,8 +64,8 @@ async function vote(element) {
     );
     var countVotes = result.countVotes;
 
-    var firstOptionPercentage = (result.options[0][1] / countVotes) * 100;
-    var secondOptionPercetage = (result.options[0][2] / countVotes) * 100;
+    var firstOptionPercentage = Math.floor((result.options[0][1] / countVotes) * 100);
+    var secondOptionPercetage = Math.floor((result.options[0][2] / countVotes) * 100);
 
     firstOptionReference.style.width = firstOptionPercentage + "%";
     secondOptionReference.style.width = secondOptionPercetage + "%";
