@@ -30,9 +30,16 @@ db.exec(`
   CREATE TABLE IF NOT EXISTS Votos (
     id_enquete INTEGER,
     id_opcao INTEGER,
+    ip_address TEXT,
+    voted_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (id_enquete) REFERENCES Enquetes(id),
     FOREIGN KEY (id_opcao) REFERENCES Opcoes(id)
   )
+`);
+
+db.exec(`
+  CREATE UNIQUE INDEX IF NOT EXISTS idx_unique_vote_per_ip 
+  ON Votos(id_enquete, ip_address)
 `);
 
 export default db;
